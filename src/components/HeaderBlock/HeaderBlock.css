@@ -1,0 +1,81 @@
+.headerBlock {
+  background: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+}
+
+.headerBlock_info {
+  display: flex;
+  flex-direction: column;
+  height: 360px;
+}
+
+.headerBlock_infoText {
+  text-align: center;
+  flex: 1;
+}
+
+.headerBlock_infoText > h1 {
+  color: #171a20;
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.headerBlock_infoText > h4 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #5c5e62;
+}
+
+.headerBlock_infoText > h4 > span {
+  padding-bottom: 4px;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+  color: #171a20;
+  cursor: pointer;
+}
+
+.headerBlock_infoText > h4 > span:hover {
+  border-bottom-width: 2px;
+  color: black;
+}
+
+.headerBlock_actions {
+  margin-top: 330px;
+  display: flex;
+  gap: 20px;
+}
+
+.headerBlock_actions > button {
+  cursor: pointer;
+  border: none;
+  width: 260px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  outline: none;
+}
+
+.headerBlock_buttonPrimary {
+  background-color: #393c41;
+  color: white;
+  opacity: 0.9;
+}
+
+.headerBlock_buttonSecondary {
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+}
